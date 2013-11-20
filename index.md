@@ -31,7 +31,7 @@ details of the scope of the work.
 Our deliverables include:
 
 * Hypertext Transfer Protocol version 2.0 - [official draft](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [editors' copy](http://http2.github.com/http2-spec/)
-* HTTP Header Compression - [official draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
+* HPACK - Header Compression for HTTP/2.0 - [official draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
 
 Both documents are available in our [Github repository](https://github.com/http2/http2-spec).
  
