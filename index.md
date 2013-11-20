@@ -24,9 +24,7 @@ will be collecting issues against this document, as well as confirming
 consensus over individual portions.
 
 See [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) for more
-details of the scope of the work, and the [implementations
-list](https://github.com/http2/http2-spec/wiki/Implementations) to find code
-that does HTTP/2.0.
+details of the scope of the work.
 
 ## Deliverables
 
@@ -40,6 +38,20 @@ Both documents are available in our [Github repository](https://github.com/http2
 You can track changes to the documents using the [commit log](https://github.com/http2/http2-spec/commits/master), also available in
 [Atom](https://github.com/http2/http2-spec/commits/master.atom) and on
 [Twitter](http://twitter.com/httpbis).
+
+## Implementations
+
+We track [known
+implementations](https://github.com/http2/http2-spec/wiki/Implementations) of
+HTTP/2.0. Right now the protocol is still changing quickly, so we do not expect
+every draft we publish to be implemented; instead we nominate **implementation
+drafts** for interop work.
+
+Our implementation drafts have been:
+
+1. [draft-04](http://tools.ietf.org/html/draft-ietf-httpbis-http2-04)
+2. [draft-06](http://tools.ietf.org/html/draft-ietf-httpbis-http2-06)
+
 
 ## Participate
 
