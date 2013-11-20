@@ -49,9 +49,11 @@ drafts** for interop work.
 
 Our implementation drafts have been:
 
-1. [draft-04](http://tools.ietf.org/html/draft-ietf-httpbis-http2-04) - references [HPACK-00](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-00)
-2. [draft-06](http://tools.ietf.org/html/draft-ietf-httpbis-http2-06) - references [HPACK-02](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-02)
-3. [draft-08](http://tools.ietf.org/html/draft-ietf-httpbis-http2-08) - references [HPACK-04](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-04)
+1. [draft-04](http://tools.ietf.org/html/draft-ietf-httpbis-http2-04) - references [HPACK-00](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-00) (interop in [Hamburg](https://github.com/http2/wg_materials/tree/master/interim-13-08))
+2. [draft-06](http://tools.ietf.org/html/draft-ietf-httpbis-http2-06) - references [HPACK-02](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-02) (interop in [Seattle](https://github.com/http2/wg_materials/tree/master/interim-13-10))
+3. [draft-08](http://tools.ietf.org/html/draft-ietf-httpbis-http2-08) - references [HPACK-04](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-04) (interop in [Zurich](https://github.com/http2/wg_materials/tree/master/interim-14-01))
+
+See also the [fourth implementation draft milestone](https://github.com/http2/http2-spec/issues?milestone=4&state=open).
 
 
 ## Participate
