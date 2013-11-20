@@ -21,12 +21,13 @@
   <body>
     
     {% include navbar.html %}
-    {% include banner.html %}
     
       <div class="container">
         <div class="page-header">  
           <h1>{{ page.title }}</h1>
         </div>
+
+        {% include banner.html %}
 
         {{ content }}
 
