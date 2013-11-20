@@ -78,7 +78,4 @@ until the group confirms the proposal after it is published.
 **Editorial issues** can be resolved by the editors without consultation with
 the group, although sometimes an editor will poll the group for advice.
 
-## Contact
 
-If you have questions or a problem, please contact the Working Group Chair,
-[Mark Nottingham](mailto:mnot@mnot.net).
