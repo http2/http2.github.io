@@ -24,7 +24,9 @@ will be collecting issues against this document, as well as confirming
 consensus over individual portions.
 
 See [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) for more
-details.
+details of the scope of the work, and the [implementations
+list](https://github.com/http2/http2-spec/wiki/Implementations) to find code
+that does HTTP/2.0.
 
 ## Deliverables
 
