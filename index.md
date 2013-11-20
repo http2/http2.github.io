@@ -49,8 +49,9 @@ drafts** for interop work.
 
 Our implementation drafts have been:
 
-1. [draft-04](http://tools.ietf.org/html/draft-ietf-httpbis-http2-04)
-2. [draft-06](http://tools.ietf.org/html/draft-ietf-httpbis-http2-06)
+1. [draft-04](http://tools.ietf.org/html/draft-ietf-httpbis-http2-04) - references [HPACK-00](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-00)
+2. [draft-06](http://tools.ietf.org/html/draft-ietf-httpbis-http2-06) - references [HPACK-02](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-02)
+3. [draft-08](http://tools.ietf.org/html/draft-ietf-httpbis-http2-08) - references [HPACK-04](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-04)
 
 
 ## Participate
