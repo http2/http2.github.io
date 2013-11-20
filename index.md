@@ -10,9 +10,9 @@ Group](http://trac.tools.ietf.org/wg/httpbis/trac/wiki).
 ## What is HTTP/2.0?
 
 HTTP/2.0 is a replacement for how HTTP is expressed "on the wire." It is
-**not** a ground-up rewrite of the protocol; HTTP methods, status codes, will
-be the same, and it should be possible to use the same APIs as HTTP/1.x
-(possibly with some small additions) to represent the protocol.
+**not** a ground-up rewrite of the protocol; HTTP methods, status codes and
+semantics will be the same, and it should be possible to use the same APIs as
+HTTP/1.x (possibly with some small additions) to represent the protocol.
 
 The focus of the protocol is on performance; specifically, end-user perceived
 latency, network and server resource usage. One major goal is to allow the use
