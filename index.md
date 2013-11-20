@@ -78,4 +78,7 @@ until the group confirms the proposal after it is published.
 **Editorial issues** can be resolved by the editors without consultation with
 the group, although sometimes an editor will poll the group for advice.
 
+Additionally, some issues are marked as **liaison issues**. This means that we
+don't expect to resolve these on our own, but might reference (or even require)
+the results of work elsewhere.
 
