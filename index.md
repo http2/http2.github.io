@@ -33,42 +33,36 @@ Our specifications include:
 * Hypertext Transfer Protocol version 2.0 - [official draft](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [editors' copy](http://http2.github.com/http2-spec/)
 * HTTP Header Compression [official draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
 
-Both documents are available in our [Github
-repository](https://github.com/http2/http2-spec).
+Both documents are available in our [Github repository](https://github.com/http2/http2-spec).
  
-You can track changes to the documents using the [commit
-log](https://github.com/http2/http2-spec/commits/master), also available in
+You can track changes to the documents using the [commit log](https://github.com/http2/http2-spec/commits/master), also available in
 [Atom](https://github.com/http2/http2-spec/commits/master.atom) and on
-[Twitter](http://twitter.com/httpbis Twitter).
+[Twitter](http://twitter.com/httpbis).
 
 ## Participate
 
 As with all IETF Working Groups, almost all discussion and decisions are made
 on our [mailing list](http://lists.w3.org/Archives/Public/ietf-http-wg/).
 Joining this list is "joining" the Working Group, and is the best way to
-participate. If you're new to this, you may also want to read the [Tao of the
-IETF](http://www.ietf.org/tao.html).
+participate. If you're new to this, you may also want to read the [Tao of the IETF](http://www.ietf.org/tao.html).
 
 ALL contributors and participants in the Working Group (whether on the mailing
 list, in physical meetings or on Github) MUST read and understand the
-[http://www.ietf.org/NOTEWELL.html NOTE WELL] statement.
+[NOTE WELL](http://www.ietf.org/NOTEWELL.html) statement.
 
 We also meet face-to-face at most [IETF
 meetings](http://www.ietf.org/meeting/), and sometimes in between at "interim"
 meetings. During those meetings, we use an XMPP (Jabber) channel at
-xmpp://httpbis@jabber.ietf.org?join ([http://jabber.ietf.org/logs/httpbis/
-archives]) provided by the IETF.
+xmpp://httpbis@jabber.ietf.org?join ([logs](http://jabber.ietf.org/logs/httpbis/
+archives)) provided by the IETF.
 
-Meeting records and details of upcoming meetings can be found in our [Working
-Group materials](https://github.com/http2/wg_materials) repository.
+Meeting records and details of upcoming meetings can be found in our [Working Group materials](https://github.com/http2/wg_materials) repository.
 
 
 ### Issues
 
-Discussion is most productive when it focuses on identified issues. Our [issues
-list](https://github.com/http2/http2-spec/issues) is kept on Github. Please see
-the [guidelines for
-contributing](https://github.com/http2/http2-spec/blob/master/README.md#contribu
+Discussion is most productive when it focuses on identified issues. Our [issues list](https://github.com/http2/http2-spec/issues) is kept on Github. Please see
+the [guidelines for contributing](https://github.com/http2/http2-spec/blob/master/README.md#contribu
 ting) **before** raising an issue.
 
 We have two basic types of issues; "design" and "editorial".
