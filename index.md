@@ -69,8 +69,8 @@ mailing list, in physical meetings or on Github) **MUST read and understand the
 We also meet face-to-face at most [IETF
 meetings](http://www.ietf.org/meeting/), and sometimes in between at "interim"
 meetings. During those meetings, we use an XMPP (Jabber) channel at
-xmpp://httpbis@jabber.ietf.org?join ([logs](http://jabber.ietf.org/logs/httpbis/
-archives)) provided by the IETF.
+xmpp://httpbis@jabber.ietf.org?join
+([logs](http://www.ietf.org/jabber/logs/httpbis/)) provided by the IETF.
 
 Meeting records and details of upcoming meetings can be found in our [Working Group materials](https://github.com/http2/wg_materials) repository.
 
