@@ -62,9 +62,9 @@ on our [mailing list](http://lists.w3.org/Archives/Public/ietf-http-wg/).
 Joining this list is "joining" the Working Group, and is the best way to
 participate. If you're new to this, you may also want to read the [Tao of the IETF](http://www.ietf.org/tao.html).
 
-ALL contributors and participants in the Working Group (whether on the mailing
-list, in physical meetings or on Github) MUST read and understand the
-[NOTE WELL](http://www.ietf.org/NOTEWELL.html) statement.
+**ALL contributors and participants in the Working Group** (whether on the
+mailing list, in physical meetings or on Github) **MUST read and understand the
+[NOTE WELL](http://www.ietf.org/NOTEWELL.html) statement.**
 
 We also meet face-to-face at most [IETF
 meetings](http://www.ietf.org/meeting/), and sometimes in between at "interim"
