@@ -1,15 +1,15 @@
 ---
 layout: page
-title: HTTP/2.0
+title: HTTP/2
 ---
 
-This is the home page for the effort to define HTTP/2.0, a major revision of
+This is the home page for the effort to define HTTP/2, a major revision of
 the Web's protocol. It is maintained by the [IETF HTTPbis Working
 Group](http://trac.tools.ietf.org/wg/httpbis/trac/wiki).
 
-## What is HTTP/2.0?
+## What is HTTP/2?
 
-HTTP/2.0 is a replacement for how HTTP is expressed "on the wire." It is
+HTTP/2 is a replacement for how HTTP is expressed "on the wire." It is
 **not** a ground-up rewrite of the protocol; HTTP methods, status codes and
 semantics will be the same, and it should be possible to use the same APIs as
 HTTP/1.x (possibly with some small additions) to represent the protocol.
@@ -30,8 +30,8 @@ details of the scope of the work.
 
 Our deliverables include:
 
-* Hypertext Transfer Protocol version 2.0 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [editors' copy](http://http2.github.com/http2-spec/)
-* HPACK - Header Compression for HTTP/2.0 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
+* Hypertext Transfer Protocol version 2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [editors' copy](http://http2.github.com/http2-spec/)
+* HPACK - Header Compression for HTTP/2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
 
 Both documents are available in our [specifications repository](https://github.com/http2/http2-spec).
  
@@ -43,7 +43,7 @@ You can track changes to the documents using the [commit log](https://github.com
 
 We track [known
 implementations](https://github.com/http2/http2-spec/wiki/Implementations) of
-HTTP/2.0. Right now the protocol is still changing quickly, so we do not expect
+HTTP/2. Right now the protocol is still changing quickly, so we do not expect
 every draft we publish to be implemented; instead we nominate **implementation
 drafts** for interop work.
 
