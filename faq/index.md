@@ -6,6 +6,32 @@ title: HTTP/2 Frequently Asked Questions
 These are Frequently Asked Questions about the HTTP/2 effort. Note that while the answers below attempt to relay current Working Group consensus, the protocol is not finished yet, and so they may change. See the links above for more information.
 
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [General Questions](#general-questions)
+  - [Why revise HTTP?](#why-revise-http)
+  - [Who is doing this?](#who-is-doing-this)
+  - [What's the relationship with SPDY?](#whats-the-relationship-with-spdy)
+  - [What are the key differences to HTTP/1.x?](#what-are-the-key-differences-to-http1x)
+  - [Why is HTTP/2 binary?](#why-is-http2-binary)
+  - [Why is HTTP/2 multiplexed?](#why-is-http2-multiplexed)
+  - [Why just one TCP connection?](#why-just-one-tcp-connection)
+  - [What's the benefit of Server Push?](#whats-the-benefit-of-server-push)
+  - [Why do we need header compression?](#why-do-we-need-header-compression)
+  - [Why HPACK?](#why-hpack)
+  - [Can HTTP/2 make cookies (or other headers) better?](#can-http2-make-cookies-or-other-headers-better)
+  - [What about non-browser users of HTTP?](#what-about-non-browser-users-of-http)
+  - [Does HTTP/2 require encryption?](#does-http2-require-encryption)
+  - [What does HTTP/2 do to improve security?](#what-does-http2-do-to-improve-security)
+  - [Can I use HTTP/2 now?](#can-i-use-http2-now)
+  - [Will HTTP/2 replace HTTP/1.x?](#will-http2-replace-http1x)
+  - [Will there be a HTTP/3?](#will-there-be-a-http3)
+- [Implementation Questions](#implementation-questions)
+- [Deployment Questions](#deployment-questions)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## General Questions
 
 
