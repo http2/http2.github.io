@@ -3,7 +3,11 @@ layout: page
 title: HTTP/2 Frequently Asked Questions
 ---
 
+These are Frequently Asked Questions about the HTTP/2 effort. Note that while the answers below attempt to relay current Working Group consensus, the protocol is not finished yet, and so they may change. See the links above for more information.
+
+
 {:toc}
+
 
 
 ## General Questions
