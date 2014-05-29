@@ -138,7 +138,7 @@ Since then, a major attack has been documented against the use of stream compres
 
 With CRIME, it's possible for an attacker who has the ability to inject data into the encrypted stream to "probe" the plaintext and recover it. Since this is the Web, JavaScript makes this possible, and there were demonstrations of recovery of cookies and authentication tokens using CRIME for TLS-protected HTTP resources.
 
-As a result, we could not use GZIP compression. Finding no other algorithms that were suitable for this use case as well as safe to use, we created a 
+As a result, we could not use GZIP compression. Finding no other algorithms that were suitable for this use case as well as safe to use, we created a new, header-specific compression scheme that operates at a coarse granularity; since HTTP headers often don't change between messages, this still gives reasonable compression efficiency, and is much safer.
 
 
 ### Can HTTP/2 make cookies (or other headers) better?
