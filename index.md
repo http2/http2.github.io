@@ -24,7 +24,8 @@ will be collecting issues against this document, as well as confirming
 consensus over individual portions.
 
 See [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) for more
-details of the scope of the work.
+details of the scope of the work, as well as our [Frequently Asked
+Questions](/faq/).
 
 ## Specifications
 
