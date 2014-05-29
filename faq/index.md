@@ -28,6 +28,9 @@ These are Frequently Asked Questions about the HTTP/2 effort. Note that while th
   - [Will HTTP/2 replace HTTP/1.x?](#will-http2-replace-http1x)
   - [Will there be a HTTP/3?](#will-there-be-a-http3)
 - [Implementation Questions](#implementation-questions)
+  - [Why the rules around Continuation on HEADERS frames?](#why-the-rules-around-continuation-on-headers-frames)
+  - [What is the minimum or maximum HPACK state size?](#what-is-the-minimum-or-maximum-hpack-state-size)
+  - [How can I avoid keeping state?](#how-can-i-avoid-keeping-state)
 - [Deployment Questions](#deployment-questions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
