@@ -215,4 +215,17 @@ If the negotiation mechanism introduced by HTTP/2 works well, it should be possi
 ## Implementation Questions
 
 
+### Why the rules around Continuation on HEADERS frames?
+
+Continuation exists since a single value (e.g. SETCOOKIE) could exceed 16k, which means it couldn't fit into a single frame. It was decided that the least error-prone way to deal with this was to require that all of the headers data come in back-to-back frames, which made decoding and buffer management easier. 
+
+### What is the minimum or maximum HPACK state size?
+
+The receiver always controls the amount of memory used in HPACK, and can set it to zero at a minimum, with a maximum related to the maximum representable integer in a SETTINGS frame, currently 2^32.
+
+### How can I avoid keeping state?
+
+Send a SETTINGS frame setting state size to zero, then RST all streams until a SETTINGS frame with the ACK bit set has been received.
+
+
 ## Deployment Questions
