@@ -230,6 +230,18 @@ The receiver always controls the amount of memory used in HPACK, and can set it 
 
 Send a SETTINGS frame setting state size to zero, then RST all streams until a SETTINGS frame with the ACK bit set has been received.
 
+### Why is there a single compression/flow-control context? 
+
+Simplicity. 
+
+The original proposals had stream groups, which would share context, flow control, etc. While that would benefit proxies (and the experience of users going through them), doing so added a fair bit of complexity. It was decided that we'd go with the simple thing to begin with, see how painful it was, and address the pain (if any) in a future protocol revision.
+
+### Why is there an EOS symbol in HPACK?
+
+HPACK's huffman encoding, for reasons of CPU efficiency and security, pads out huffman-encoded strings to the next byte boundary; there may be between 0-7 bits of padding needed for any particular string. 
+
+If one considers huffman decoding in isolation, any symbol that is longer than the required padding would work; however, HPACK's design allows for bytewise comparison of huffman-encoded strings. By requiring that the bits of the EOS symbol are used for padding, we ensure that users can do bytewise comparison of huffman-encoded strings to determine equality. This in turn means that many headers can be interpreted without being huffman decoded. 
+
 
 ## Deployment Questions
 
