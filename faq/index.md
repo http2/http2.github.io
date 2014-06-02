@@ -76,11 +76,12 @@ Throughout the process, the core developers of SPDY have been involved in the de
 ### What are the key differences to HTTP/1.x?
 
 At a high level, HTTP/2:
-  * is binary, instead of textual
-  * is fully multiplexed, instead of ordered and blocking
-  * can therefore use one connection for parallelism
-  * uses header compression to reduce overhead
-  * allows servers to "push" responses proactively into client caches
+
+* is binary, instead of textual
+* is fully multiplexed, instead of ordered and blocking
+* can therefore use one connection for parallelism
+* uses header compression to reduce overhead
+* allows servers to "push" responses proactively into client caches
 
 ### Why is HTTP/2 binary?
 
