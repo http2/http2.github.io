@@ -246,4 +246,6 @@ If one considers huffman decoding in isolation, any symbol that is longer than t
 
 ## Deployment Questions
 
-TBD
+### How do I debug HTTP/2 if it's encrypted?
+
+There are many ways to get access to the application data, but the easiest is to use [NSS keylogging](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/Key_Log_Format) in combination with the Wireshark plugin (included in recent development releases). This works with both Firefox and Chrome.
