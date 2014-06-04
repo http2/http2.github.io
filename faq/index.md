@@ -31,7 +31,10 @@ These are Frequently Asked Questions about the HTTP/2 effort. Note that while th
   - [Why the rules around Continuation on HEADERS frames?](#why-the-rules-around-continuation-on-headers-frames)
   - [What is the minimum or maximum HPACK state size?](#what-is-the-minimum-or-maximum-hpack-state-size)
   - [How can I avoid keeping state?](#how-can-i-avoid-keeping-state)
+  - [Why is there a single compression/flow-control context?](#why-is-there-a-single-compressionflow-control-context)
+  - [Why is there an EOS symbol in HPACK?](#why-is-there-an-eos-symbol-in-hpack)
 - [Deployment Questions](#deployment-questions)
+  - [How do I debug HTTP/2 if it's encrypted?](#how-do-i-debug-http2-if-its-encrypted)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
