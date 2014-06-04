@@ -76,6 +76,12 @@ After a call for proposals and a selection process, [SPDY/2](http://tools.ietf.o
 Throughout the process, the core developers of SPDY have been involved in the development of HTTP/2, including both Mike Belshe and Roberto Peon. In fact, the still-to-be-released [SPDY/4 revision](https://groups.google.com/forum/#!topic/spdy-dev/EWEEWSYtlhc) is based upon HTTP/2 wholesale, because the SPDY community now sees it as a vehicle for further experiments to feed back into HTTP/x, not a competitor to this effort.
 
 
+### Is it HTTP/2.0 or HTTP/2?
+
+The Working Group decided to drop the minor version (".0") because it has caused a lot of confusion in HTTP/1.x. 
+
+In other words, the HTTP version *only* indicates wire compatibility, not feature sets or "marketing."
+
 ### What are the key differences to HTTP/1.x?
 
 At a high level, HTTP/2:
