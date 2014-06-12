@@ -7,7 +7,7 @@ This is the home page for the effort to define HTTP/2, a major revision of
 the Web's protocol. It is maintained by the [IETF HTTPbis Working
 Group](http://trac.tools.ietf.org/wg/httpbis/trac/wiki).
 
-__See also [HTTP/2 JP](https://github.com/http2jp), maintained by the Japanese HTTP/2 community.__
+_See also [HTTP/2 JP](https://github.com/http2jp), maintained by the Japanese HTTP/2 community._
 
 ## What is HTTP/2?
 
