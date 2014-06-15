@@ -13,6 +13,7 @@ These are Frequently Asked Questions about the HTTP/2 effort. Note that while th
   - [Why revise HTTP?](#why-revise-http)
   - [Who is doing this?](#who-is-doing-this)
   - [What's the relationship with SPDY?](#whats-the-relationship-with-spdy)
+  - [Is it HTTP/2.0 or HTTP/2?](#is-it-http20-or-http2)
   - [What are the key differences to HTTP/1.x?](#what-are-the-key-differences-to-http1x)
   - [Why is HTTP/2 binary?](#why-is-http2-binary)
   - [Why is HTTP/2 multiplexed?](#why-is-http2-multiplexed)
@@ -199,7 +200,7 @@ However, some implementations have stated that they will only support HTTP/2 whe
 
 ### What does HTTP/2 do to improve security?
 
-Right now, HTTP/2 defines a profile of TLS that is required; this includes the version, cyphersuites, and extensions used. 
+Right now, HTTP/2 defines a profile of TLS that is required; this includes the version, ciphersuites, and extensions used. 
 
 See [the spec](http://http2.github.io/http2-spec/#TLSUsage) for details.
 
@@ -208,7 +209,7 @@ There is also discussion of additional mechanisms, such as using TLS for HTTP://
 
 ### Can I use HTTP/2 now?
 
-HTTP/2 isn't yet available in mainline browsers, but there are experimental builds available, and it may be avilable in "nightly" channels. 
+HTTP/2 isn't yet available in mainline browsers, but there are experimental builds available, and it may be available in "nightly" channels. 
 
 There are also several servers available (including a test server form [Akamai](https://github.com/http2/http2-spec/wiki/Akamaighost) and [Twitter](https://twitter.com/)'s main site), and a number of Open Source implementations that you can deploy and test.
 
