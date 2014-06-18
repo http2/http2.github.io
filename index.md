@@ -84,7 +84,7 @@ meetings. During those meetings, we use an XMPP (Jabber)
 [channel](xmpp://httpbis@jabber.ietf.org?join)
 ([logs](http://www.ietf.org/jabber/logs/httpbis/)) provided by the IETF.
 
-Meeting records and details of upcoming meetings can be found in our [Working Group materials](https://github.com/http2/wg_materials) repository.
+Meeting records and details of upcoming meetings can be found in our [Working Group materials](https://github.com/httpwg/wg-materials) repository.
 
 
 ### Issues
