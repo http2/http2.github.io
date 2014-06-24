@@ -35,7 +35,6 @@ Our deliverables include:
 
 * Hypertext Transfer Protocol version 2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [editors' copy](http://http2.github.com/http2-spec/)
 * HPACK - Header Compression for HTTP/2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
-* HTTP Alternative Services - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-alt-svc/), [editors' copy](http://http2.github.com/http2-spec/alt-svc.html)
 
 These documents are available in our [specifications repository](https://github.com/http2/http2-spec).
  
@@ -56,8 +55,7 @@ Our implementation drafts have been:
 1. [draft-04](http://tools.ietf.org/html/draft-ietf-httpbis-http2-04) - references [HPACK-00](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-00) (interop in [Hamburg](https://github.com/http2/wg_materials/tree/master/interim-13-08))
 2. [draft-06](http://tools.ietf.org/html/draft-ietf-httpbis-http2-06) - references [HPACK-02](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-02) (interop in [Seattle](https://github.com/http2/wg_materials/tree/master/interim-13-10))
 3. [draft-09](http://tools.ietf.org/html/draft-ietf-httpbis-http2-09) - references [HPACK-05](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-05) (interop was in [Zurich](https://github.com/http2/wg_materials/tree/master/interim-14-01))
-4. [draft-12](http://tools.ietf.org/html/draft-ietf-httpbis-http2-12) - references [HPACK-07](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-07), 
-   [ALTSVC-01](http://tools.ietf.org/html/draft-ietf-httpbis-alt-svc-01) (**current**, interop in [New York](https://github.com/http2/wg_materials/tree/master/interim-14-06))
+4. [draft-12](http://tools.ietf.org/html/draft-ietf-httpbis-http2-12) - references [HPACK-07](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-07) (**current**, interop in [New York](https://github.com/http2/wg_materials/tree/master/interim-14-06))
 
 See also the [fifth implementation draft milestone](https://github.com/http2/http2-spec/issues?milestone=5&state=open) for upcoming issues.
 
