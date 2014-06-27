@@ -55,7 +55,8 @@ Our implementation drafts have been:
 1. [draft-04](http://tools.ietf.org/html/draft-ietf-httpbis-http2-04) - references [HPACK-00](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-00) (interop in [Hamburg](https://github.com/http2/wg_materials/tree/master/interim-13-08))
 2. [draft-06](http://tools.ietf.org/html/draft-ietf-httpbis-http2-06) - references [HPACK-02](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-02) (interop in [Seattle](https://github.com/http2/wg_materials/tree/master/interim-13-10))
 3. [draft-09](http://tools.ietf.org/html/draft-ietf-httpbis-http2-09) - references [HPACK-05](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-05) (interop was in [Zurich](https://github.com/http2/wg_materials/tree/master/interim-14-01))
-4. [draft-12](http://tools.ietf.org/html/draft-ietf-httpbis-http2-12) - references [HPACK-07](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-07) (**current**, interop in [New York](https://github.com/http2/wg_materials/tree/master/interim-14-06))
+4. [draft-12](http://tools.ietf.org/html/draft-ietf-httpbis-http2-12) - references [HPACK-07](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-07) (interop in [New York](https://github.com/http2/wg_materials/tree/master/interim-14-06))
+5. [draft-13](http://tools.ietf.org/html/draft-ietf-httpbis-http2-13) - references [HPACK-08](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-08) (**current**)
 
 See also the [fifth implementation draft milestone](https://github.com/http2/http2-spec/issues?milestone=5&state=open) for upcoming issues.
 
