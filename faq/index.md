@@ -95,7 +95,7 @@ At a high level, HTTP/2:
 
 ### Why is HTTP/2 binary?
 
-Binary protocols are more efficient to parse, more compact "on the wire", and most importantly, the are much less error-prone, compared to textual protocols like HTTP/1.x, because they often have a number of affordances to "help" with things like whitespace handling, capitalisation, line endings, blank links and so on.
+Binary protocols are more efficient to parse, more compact "on the wire", and most importantly, they are much less error-prone, compared to textual protocols like HTTP/1.x, because they often have a number of affordances to "help" with things like whitespace handling, capitalisation, line endings, blank links and so on.
 
 For example, HTTP/1.1 defines [four different ways to parse a message](http://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.4); in HTTP/2, there's just one code path.
 
