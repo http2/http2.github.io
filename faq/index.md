@@ -174,7 +174,7 @@ It's expected that non-browser applications will be able to use HTTP/2 as well, 
 
 Early feedback has been that HTTP/2 has good performance characteristics for HTTP "APIs", because the APIs don't need to consider things like request overhead in their design. 
 
-Having said that, the main focus of the improvments we're considering is the typical browsing use cases, since this is the core use case for the protocol. 
+Having said that, the main focus of the improvements we're considering is the typical browsing use cases, since this is the core use case for the protocol. 
 
 Our [charter](http://datatracker.ietf.org/wg/httpbis/charter/) says this about it:
 
