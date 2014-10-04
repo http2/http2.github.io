@@ -46,7 +46,7 @@ These are Frequently Asked Questions about the HTTP/2 effort. Note that while th
 
 HTTP/1.1 has served the Web well for more than fifteen years, but its age is starting to show. 
 
-Loading a Web page is more resource intensive than ever (see the [HTTP Archive's page size statistics](http://httparchive.org/trends.php#bytesTotal&reqTotal), and loading all of those assets efficiently is difficult, because HTTP practically only allows one outstanding request per TCP connection.
+Loading a Web page is more resource intensive than ever (see the [HTTP Archive's page size statistics](http://httparchive.org/trends.php#bytesTotal&reqTotal)), and loading all of those assets efficiently is difficult, because HTTP practically only allows one outstanding request per TCP connection.
 
 In the past, browsers have used multiple TCP connections to issue parallel requests. However, there are limits to this; if too many connections are used, it's both counter-productive (TCP congestion control is effectively negated, leading to congestion events that hurt performance and the network), and it's fundamentally unfair (because browsers are taking more than their share of network resources).
 
