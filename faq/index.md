@@ -74,7 +74,7 @@ HTTP/2 was first discussed when it became apparent that SPDY was gaining tractio
 
 After a call for proposals and a selection process, [SPDY/2](http://tools.ietf.org/html/draft-mbelshe-httpbis-spdy-00) was chosen as the basis for HTTP/2. Since then, there have been a number of changes, based on discussion in the Working Group and feedback from implementers.
 
-Throughout the process, the core developers of SPDY have been involved in the development of HTTP/2, including both Mike Belshe and Roberto Peon. In fact, the still-to-be-released [SPDY/4 revision](https://groups.google.com/forum/#!topic/spdy-dev/EWEEWSYtlhc) is based upon HTTP/2 wholesale, because the SPDY community now sees it as a vehicle for further experiments to feed back into HTTP/x, not a competitor to this effort.
+Throughout the process, the core developers of SPDY have been involved in the development of HTTP/2, including both Mike Belshe and Roberto Peon.
 
 In February 2015, Google [announced its plans](http://blog.chromium.org/2015/02/hello-http2-goodbye-spdy-http-is_9.html) to remove support for SPDY in favor of HTTP/2.
 
