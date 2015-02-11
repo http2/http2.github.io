@@ -59,7 +59,6 @@ Our implementation drafts have been:
 5. [draft-13](http://tools.ietf.org/html/draft-ietf-httpbis-http2-13) - references [HPACK-08](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-08)
 6. [draft-14](http://tools.ietf.org/html/draft-ietf-httpbis-http2-14) - references [HPACK-09](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-09) (**current**)
 
-See also the [WGLC milestone](https://github.com/http2/http2-spec/issues?milestone=6&state=open) for outstanding issues.
 
 
 ## Participate
