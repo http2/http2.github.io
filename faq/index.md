@@ -206,7 +206,7 @@ Right now, HTTP/2 defines a profile of TLS that is required; this includes the v
 
 See [the spec](http://http2.github.io/http2-spec/#TLSUsage) for details.
 
-There is also discussion of additional mechanisms, such as using TLS for HTTP:// URLs (so-called "opportunistic encryption"); see [issue #315](https://github.com/http2/http2-spec/issues/315).
+There is also discussion of additional mechanisms, such as using TLS for HTTP:// URLs (so-called "opportunistic encryption"); see [the relevant draft](http://httpwg.github.io/http-extensions/encryption.html).
 
 
 ### Can I use HTTP/2 now?
