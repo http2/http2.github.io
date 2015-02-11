@@ -97,7 +97,7 @@ At a high level, HTTP/2:
 
 ### Why is HTTP/2 binary?
 
-Binary protocols are more efficient to parse, more compact "on the wire", and most importantly, they are much less error-prone, compared to textual protocols like HTTP/1.x, because they often have a number of affordances to "help" with things like whitespace handling, capitalisation, line endings, blank links and so on.
+Binary protocols are more efficient to parse, more compact "on the wire", and most importantly, they are much less error-prone, compared to textual protocols like HTTP/1.x, because they often have a number of affordances to "help" with things like whitespace handling, capitalization, line endings, blank links and so on.
 
 For example, HTTP/1.1 defines [four different ways to parse a message](http://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.4); in HTTP/2, there's just one code path.
 
@@ -123,7 +123,7 @@ With HTTP/1, browsers open between four and eight connections per origin. Since 
 
 One application opening so many connections simultaneously breaks a lot of the assumptions that TCP was built upon; since each connection will start a flood of data in the response, there's a real risk that buffers in the intervening network will overflow, causing a congestion event and retransmits. 
 
-Additionally, using so many connections unfairly monopolises network resources, "stealing" them from other, better-behaved applications (e.g., VoIP).
+Additionally, using so many connections unfairly monopolizes network resources, "stealing" them from other, better-behaved applications (e.g., VoIP).
 
 
 ### What's the benefit of Server Push?
@@ -139,7 +139,7 @@ Patrick McManus from Mozilla showed this vividly by calculating the effect of he
 
 If you assume that a page has about 80 assets (which is conservative in today's Web), and each request has 1400 bytes of headers (again, not uncommon, thanks to Cookies, Referer, etc.), it takes at least 7-8 round trips to get the headers out "on the wire." That's not counting response time - that's just to get them out of the client.
 
-This is because of TCP's [Slow Start](http://en.wikipedia.org/wiki/Slow-start) mechanism, which paces packets out on new connnections based on how many packets have been acknowledged -- effectively limiting the number of packets that can be sent for the first few round trips.
+This is because of TCP's [Slow Start](http://en.wikipedia.org/wiki/Slow-start) mechanism, which paces packets out on new connections based on how many packets have been acknowledged -- effectively limiting the number of packets that can be sent for the first few round trips.
 
 In comparison, even mild compression on headers allows those requests to get onto the wire within one roundtrip -- perhaps even one packet. 
 
