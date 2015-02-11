@@ -29,6 +29,13 @@ See [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) for more
 details of the scope of the work, as well as our [Frequently Asked
 Questions](/faq/).
 
+## Status
+
+HTTP/2 is nearly done standardization; currently, it is awaiting final approval
+by the [IESG](http://www.ietf.org/iesg/), and should soon enter the [RFC
+Editor](https://www.rfc-editor.org/)'s publication queue.
+
+
 ## Specifications
 
 HTTP/2 is comprised of two specifications:
