@@ -61,49 +61,5 @@ Our implementation drafts have been:
 
 
 
-## Participate
 
-**ALL contributors and participants in the Working Group** (whether on a
-mailing list, in physical meetings or on Github) **MUST read and understand the
-[NOTE WELL](http://www.ietf.org/NOTEWELL.html) statement.**
-
-As with all IETF Working Groups, almost all discussion and decisions are made
-on our [WG mailing list](http://lists.w3.org/Archives/Public/ietf-http-wg/).
-Joining this list is "joining" the Working Group, and is the best way to
-participate. If you're new to this, you may also want to read the [Tao of the IETF](http://www.ietf.org/tao.html).
-
-Discussion about implementations and testing takes place on the [DevOps mailing
-list](https://www.ietf.org/mailman/listinfo/http-devops). This list is for
-developers, operators and testers of implementations; discusion of the
-specifications themselves needs to happen on the WG mailing list.
-
-We also meet face-to-face at most [IETF
-meetings](http://www.ietf.org/meeting/), and sometimes in between at "interim"
-meetings. During those meetings, we use an XMPP (Jabber)
-[channel](xmpp://httpbis@jabber.ietf.org?join)
-([logs](http://www.ietf.org/jabber/logs/httpbis/)) provided by the IETF.
-
-Meeting records and details of upcoming meetings can be found in our [Working Group materials](https://github.com/httpwg/wg-materials) repository.
-
-
-### Issues
-
-Discussion is most productive when it focuses on identified issues. Our [issues list](https://github.com/http2/http2-spec/issues) is kept on Github. Please see
-the [guidelines for contributing](https://github.com/http2/http2-spec/blob/master/README.md#contribu
-ting) **before** raising an issue.
-
-We have two basic types of issues; "design" and "editorial".
-
-**Design issues** need to be discussed by the Working Group to reach consensus.
-This generally happens on the mailing list when the issue is raised, but the
-editors sometimes incorporate a proposed resolution to a design issue in a
-draft, so that the WG can see it in-situ. Such tickets aren't fully closed
-until the group confirms the proposal after it is published.
-
-**Editorial issues** can be resolved by the editors without consultation with
-the group, although sometimes an editor will poll the group for advice.
-
-Additionally, some issues are marked as **liaison issues**. This means that we
-don't expect to resolve these on our own, but might reference (or even require)
-the results of work elsewhere.
 
