@@ -59,7 +59,7 @@ This has led the industry to a place where it's considered Best Practice to do t
 
 ### Who is doing this?
 
-HTTP/2 is being developed by the [IETF](http://www.ietf.org/)'s [HTTPbis Working Group](https://httpwg.github.io/), which maintains the HTTP protocol. It's made up of a number of HTTP implementers, users, network operators and HTTP experts.
+HTTP/2 is being developed by the [IETF](http://www.ietf.org/)'s [HTTP Working Group](https://httpwg.github.io/), which maintains the HTTP protocol. It's made up of a number of HTTP implementers, users, network operators and HTTP experts.
 
 Note that while [our mailing list](http://lists.w3.org/Archives/Public/ietf-http-wg/) is hosted on the W3C site, this is *not* a W3C effort. Tim Berners-Lee and the W3C TAG are kept up-to-date with the WG's progress, however.
 
