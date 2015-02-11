@@ -20,10 +20,10 @@ The focus of the protocol is on performance; specifically, end-user perceived
 latency, network and server resource usage. One major goal is to allow the use
 of a single connection from browsers to a Web site.
 
-The basis of the work is
-[SPDY](http://tools.ietf.org/html/draft-mbelshe-httpbis-spdy-00). However, we
-will be collecting issues against this document, as well as confirming
-consensus over individual portions.
+The basis of the work was
+[SPDY](http://tools.ietf.org/html/draft-mbelshe-httpbis-spdy-00), but HTTP/2
+has evolved to take the community's input into account, incorporating several
+improvements in the process.
 
 See [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) for more
 details of the scope of the work, as well as our [Frequently Asked
