@@ -59,7 +59,7 @@ This has led the industry to a place where it's considered Best Practice to do t
 
 ### Who is doing this?
 
-HTTP/2 is being developed by the [IETF](http://www.ietf.org/)'s [HTTPbis Working Group](http://trac.tools.ietf.org/wg/httpbis/trac/wiki), which maintains the HTTP protocol. It's made up of a number of HTTP implementers, users, network operators and HTTP experts.
+HTTP/2 is being developed by the [IETF](http://www.ietf.org/)'s [HTTPbis Working Group](https://httpwg.github.io/), which maintains the HTTP protocol. It's made up of a number of HTTP implementers, users, network operators and HTTP experts.
 
 Note that while [our mailing list](http://lists.w3.org/Archives/Public/ietf-http-wg/) is hosted on the W3C site, this is *not* a W3C effort. Tim Berners-Lee and the W3C TAG are kept up-to-date with the WG's progress, however.
 
@@ -167,7 +167,7 @@ In particular, we want to be able to translate from HTTP/1 to HTTP/2 and back wi
 
 Doing that would just create friction against the adoption of the new protocol.
 
-All of that said, the Working Group is responsible for all of HTTP, not just HTTP/2. As such, we can work on new mechanisms that are version-independent, as long as they're backwards-compatible with the existing Web.
+All of that said, the [HTTP Working Group](https://httpwg.github.io/) is responsible for all of HTTP, not just HTTP/2. As such, we can work on new mechanisms that are version-independent, as long as they're backwards-compatible with the existing Web.
 
 
 ### What about non-browser users of HTTP?
