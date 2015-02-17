@@ -9,7 +9,7 @@ _See also [HTTP/2 JP](https://github.com/http2jp), maintained by the Japanese HT
 
 HTTP/2 is a replacement for how HTTP is expressed "on the wire." It is
 **not** a ground-up rewrite of the protocol; HTTP methods, status codes and
-semantics will be the same, and it should be possible to use the same APIs as
+semantics are the same, and it should be possible to use the same APIs as
 HTTP/1.x (possibly with some small additions) to represent the protocol.
 
 The focus of the protocol is on performance; specifically, end-user perceived
@@ -38,8 +38,6 @@ HTTP/2 is comprised of two specifications:
 
 * Hypertext Transfer Protocol version 2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [editors' copy](http://http2.github.com/http2-spec/)
 * HPACK - Header Compression for HTTP/2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
-
-The source for these documents is available in our [specifications repository](https://github.com/http2/http2-spec).
  
  
 ## Implementations
