@@ -27,8 +27,8 @@ Questions](/faq/).
 
 ## Status
 
-HTTP/2 is nearly done standardization; currently, it is awaiting final approval
-by the [IESG](http://www.ietf.org/iesg/), and should soon enter the [RFC
+HTTP/2 is nearly done standardization; it has been approved by the
+[IESG](http://www.ietf.org/iesg/), and should soon enter the [RFC
 Editor](https://www.rfc-editor.org/)'s publication queue.
 
 
@@ -47,7 +47,3 @@ The source for these documents is available in our [specifications repository](h
 We track [known
 implementations](https://github.com/http2/http2-spec/wiki/Implementations) of
 HTTP/2 on our wiki. 
-
-
-
-
