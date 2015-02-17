@@ -3,7 +3,7 @@ layout: page
 title: HTTP/2 Frequently Asked Questions
 ---
 
-These are Frequently Asked Questions about the HTTP/2 effort.
+These are Frequently Asked Questions about HTTP/2.
 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -57,9 +57,9 @@ Both of these factors means that HTTP/1.1 requests have a lot of overhead associ
 This has led the industry to a place where it's considered Best Practice to do things like spriting, data: inlining, domain sharding and concatenation. These hacks are indications of underlying problems in the protocol itself, and cause a number of problems on their own when used.
  
 
-### Who is doing this?
+### Who made HTTP/2?
 
-HTTP/2 is being developed by the [IETF](http://www.ietf.org/)'s [HTTP Working Group](https://httpwg.github.io/), which maintains the HTTP protocol. It's made up of a number of HTTP implementers, users, network operators and HTTP experts.
+HTTP/2 was developed by the [IETF](http://www.ietf.org/)'s [HTTP Working Group](https://httpwg.github.io/), which maintains the HTTP protocol. It's made up of a number of HTTP implementers, users, network operators and HTTP experts.
 
 Note that while [our mailing list](http://lists.w3.org/Archives/Public/ietf-http-wg/) is hosted on the W3C site, this is *not* a W3C effort. Tim Berners-Lee and the W3C TAG are kept up-to-date with the WG's progress, however.
 
@@ -101,7 +101,7 @@ Binary protocols are more efficient to parse, more compact "on the wire", and mo
 
 For example, HTTP/1.1 defines [four different ways to parse a message](http://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.4); in HTTP/2, there's just one code path.
 
-It's true that HTTP/2 won't be usable through telnet, but we already have some tool support, such as a [Wireshark plugin](https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=9042).
+It's true that HTTP/2 isn't usable through telnet, but we already have some tool support, such as a [Wireshark plugin](https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=9042).
 
 
 ### Why is HTTP/2 multiplexed?
@@ -148,7 +148,7 @@ This overhead is considerable, especially when you consider the impact upon mobi
 
 ### Why HPACK?
 
-SPDY/2 proposed using a single GZIP context in each direction for header compression, which was simple to implement as well as efficient. 
+SPDY/2 proposed using a single GZIP context in each direction for header compression, which was simple to implement as well as efficient.
 
 Since then, a major attack has been documented against the use of stream compression (like GZIP) inside of encryption; [CRIME](http://en.wikipedia.org/wiki/CRIME).
 
@@ -161,7 +161,7 @@ As a result, we could not use GZIP compression. Finding no other algorithms that
 
 This effort was chartered to work on a revision of the wire protocol -- i.e., how HTTP headers, methods, etc. are put "onto the wire", not change HTTP's semantics.
 
-This is because HTTP is so widely used. If we used this version of HTTP to introduce a new state mechanism (one example that's been discussed) or change the core methods (thankfully, this hasn't yet been proposed), it would mean that the new protocol was incompatible with the existing Web. 
+That's because HTTP is so widely used. If we used this version of HTTP to introduce a new state mechanism (one example that's been discussed) or change the core methods (thankfully, this hasn't yet been proposed), it would mean that the new protocol was incompatible with the existing Web. 
 
 In particular, we want to be able to translate from HTTP/1 to HTTP/2 and back with no loss of information. If we started "cleaning up" the headers (and most will agree that HTTP headers are pretty messy), we'd have interoperability problems with much of the existing Web.
 
@@ -172,7 +172,7 @@ All of that said, the [HTTP Working Group](https://httpwg.github.io/) is respons
 
 ### What about non-browser users of HTTP?
 
-It's expected that non-browser applications will be able to use HTTP/2 as well, if they're already using HTTP. 
+Non-browser applications should be able to use HTTP/2 as well, if they're already using HTTP. 
 
 Early feedback has been that HTTP/2 has good performance characteristics for HTTP "APIs", because the APIs don't need to consider things like request overhead in their design. 
 
@@ -202,7 +202,7 @@ However, some implementations have stated that they will only support HTTP/2 whe
 
 ### What does HTTP/2 do to improve security?
 
-Right now, HTTP/2 defines a profile of TLS that is required; this includes the version, ciphersuites, and extensions used. 
+HTTP/2 defines a profile of TLS that is required; this includes the version, a ciphersuite blacklist, and extensions used. 
 
 See [the spec](http://http2.github.io/http2-spec/#TLSUsage) for details.
 
