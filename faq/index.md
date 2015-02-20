@@ -213,7 +213,7 @@ There is also discussion of additional mechanisms, such as using TLS for HTTP://
 
 HTTP/2 is currently available in Firefox and Chrome for testing, using the "h2-14" protocol identifier. 
 
-There are also several servers available (including a test server from [Akamai](https://secure.akamaiflowershop.com/), [Google](https://google.com/) and [Twitter](https://twitter.com/)'s main sites), and a number of Open Source implementations that you can deploy and test.
+There are also several servers available (including a test server from [Akamai](https://http2.akamai.com/), [Google](https://google.com/) and [Twitter](https://twitter.com/)'s main sites), and a number of Open Source implementations that you can deploy and test.
 
 See the [implementations list](https://github.com/http2/http2-spec/wiki/Implementations) for more details.
 
