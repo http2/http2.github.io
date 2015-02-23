@@ -28,8 +28,8 @@ Questions](/faq/).
 ## Status
 
 HTTP/2 is nearly done standardization; it has been approved by the
-[IESG](http://www.ietf.org/iesg/), and should soon enter the [RFC
-Editor](https://www.rfc-editor.org/)'s publication queue.
+[IESG](http://www.ietf.org/iesg/), and is in the [RFC
+Editor's publication queue](http://www.rfc-editor.org/queue2.html#draft-ietf-httpbis-http2).
 
 
 ## Specifications
