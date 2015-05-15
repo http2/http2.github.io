@@ -25,19 +25,13 @@ See [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) for more
 details of the scope of the work, as well as our [Frequently Asked
 Questions](/faq/).
 
-## Status
-
-HTTP/2 is nearly done standardization; it has been approved by the
-[IESG](http://www.ietf.org/iesg/), and is in the [RFC
-Editor's publication queue](http://www.rfc-editor.org/queue2.html#draft-ietf-httpbis-http2).
-
 
 ## Specifications
 
 HTTP/2 is comprised of two specifications:
 
-* Hypertext Transfer Protocol version 2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [editors' copy](http://http2.github.com/http2-spec/)
-* HPACK - Header Compression for HTTP/2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
+* Hypertext Transfer Protocol version 2 - [RFC7540](https://httpwg.github.io/specs/rfc7540.html)
+* HPACK - Header Compression for HTTP/2 - [RFC7541](https://httpwg.github.io/specs/rfc7541.html)
  
  
 ## Implementations
