@@ -197,7 +197,7 @@ Our [charter](http://datatracker.ietf.org/wg/httpbis/charter/) says this about i
 
 No. After extensive discussion, the Working Group did not have consensus to require the use of encryption (e.g., TLS) for the new protocol.
 
-However, some implementations have stated that they will only support HTTP/2 when it is used over an encrypted connection.
+However, some implementations have stated that they will only support HTTP/2 when it is used over an encrypted connection, and currently no browser supports HTTP/2 unencrypted.
 
 
 ### What does HTTP/2 do to improve security?
@@ -211,9 +211,9 @@ There is also discussion of additional mechanisms, such as using TLS for HTTP://
 
 ### Can I use HTTP/2 now?
 
-HTTP/2 is currently available in Firefox and Chrome for testing, using the "h2-14" protocol identifier. 
+In browsers, HTTP/2 is supported by the most current releases of Firefox and Chrome. Other browsers based upon Blink will also support HTTP/2 (e.g., Opera and Yandex Browser). Microsoft and Apple have both announced plans to support HTTP/2 in future releases.
 
-There are also several servers available (including a test server from [Akamai](https://http2.akamai.com/), [Google](https://google.com/) and [Twitter](https://twitter.com/)'s main sites), and a number of Open Source implementations that you can deploy and test.
+There are also several servers available (including beta support from [Akamai](https://http2.akamai.com/), [Google](https://google.com/) and [Twitter](https://twitter.com/)'s main sites), and a number of Open Source implementations that you can deploy and test.
 
 See the [implementations list](https://github.com/http2/http2-spec/wiki/Implementations) for more details.
 
