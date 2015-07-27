@@ -267,6 +267,10 @@ For HTTP/2 over TCP (`h2c`), you need to implement the initial upgrade request.
 
 `h2c`-only servers can accept a request containing the Upgrade header field with a fixed 101 response.  Requests without the `h2c` upgrade token can be rejected with a 505 (HTTP Version Not Supported) status code that contains the Upgrade header field.  Servers that don't wish to process the HTTP/1.1 response should reject stream 1 with a REFUSED_STREAM error code immediately after sending the connection preface to encourage the client to retry the request over the upgraded HTTP/2 connection.
 
+### Is the priority example in Section 5.3.2 incorrect?
+
+No.  Stream B has weight 4, stream C has weight 12.  To determine the proportion of the available resources that each of these streams receive, sum all the weights (16) and divide each stream weight by the total weight.  Stream B therefore receives one-quarter of the available resources and stream C receives three-quarters.  Consequently, as the specification states: [stream B ideally receives one-third of the resources allocated to stream C](http://http2.github.io/http2-spec/#rfc.section.5.3.2).
+
 
 ## Deployment Questions
 
