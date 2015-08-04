@@ -36,6 +36,7 @@ These are Frequently Asked Questions about HTTP/2.
   - [Why is there an EOS symbol in HPACK?](#why-is-there-an-eos-symbol-in-hpack)
 - [Deployment Questions](#deployment-questions)
   - [How do I debug HTTP/2 if it's encrypted?](#how-do-i-debug-http2-if-its-encrypted)
+  - [How can I use HTTP/2 server push](#how-can-i-use-http2-server-push)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -277,3 +278,11 @@ No.  Stream B has weight 4, stream C has weight 12.  To determine the proportion
 ### How do I debug HTTP/2 if it's encrypted?
 
 There are many ways to get access to the application data, but the easiest is to use [NSS keylogging](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/Key_Log_Format) in combination with the Wireshark plugin (included in recent development releases). This works with both Firefox and Chrome.
+
+### How can I use HTTP/2 server push?
+
+HTTP/2 server push allows a server to provide content to clients without waiting for a request.  This can improve the time to retrieve a resource, particularly for connections with a large [bandwidth-delay product](https://en.wikipedia.org/wiki/Bandwidth-delay_product) where the network round trip time comprises most of the time spent on a resource.  
+
+Pushing resources that vary based on the contents of a request could be unwise.  Currently, browsers only use pushed requests if they would otherwise make a matching request (see [Section 4 of RFC 7234](https://tools.ietf.org/html/rfc7234#section-4)).
+
+Some caches don't respect variations in all request header fields, even if they are listed in the `Vary` header field.  To maximize the likelihood that a pushed resource will be accepted, content negotiation is best avoided.  Content negotiation based on the `accept-encoding` header field is widely respected by caches, but other header fields might not as well supported.
