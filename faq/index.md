@@ -272,6 +272,17 @@ For HTTP/2 over TCP (`h2c`), you need to implement the initial upgrade request.
 
 No.  Stream B has weight 4, stream C has weight 12.  To determine the proportion of the available resources that each of these streams receive, sum all the weights (16) and divide each stream weight by the total weight.  Stream B therefore receives one-quarter of the available resources and stream C receives three-quarters.  Consequently, as the specification states: [stream B ideally receives one-third of the resources allocated to stream C](http://http2.github.io/http2-spec/#rfc.section.5.3.2).
 
+### Will I need TCP_NODELAY for my HTTP/2 connections?
+
+Yes, probably.  Even for a client-side implementation that only downloads a
+lot of data using a single stream, some packets will still be necessary to
+send back in the opposite direction to achive maximum transfer speeds. Without
+TCP_NODELAY set (still allowing the Nagle algorithm), the outgoing packets may
+be held for a while in order to allow them to merge with a subsequent one.
+
+In cases where such a packet, for example, is a packet telling the peer that
+there is more window available to send data, delaying its sending for multiple
+milliseconds (or more) can have a severe impact on high speed connections.
 
 ## Deployment Questions
 
