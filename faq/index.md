@@ -296,4 +296,4 @@ HTTP/2 server push allows a server to provide content to clients without waiting
 
 Pushing resources that vary based on the contents of a request could be unwise.  Currently, browsers only use pushed requests if they would otherwise make a matching request (see [Section 4 of RFC 7234](https://tools.ietf.org/html/rfc7234#section-4)).
 
-Some caches don't respect variations in all request header fields, even if they are listed in the `Vary` header field.  To maximize the likelihood that a pushed resource will be accepted, content negotiation is best avoided.  Content negotiation based on the `accept-encoding` header field is widely respected by caches, but other header fields might not as well supported.
+Some caches don't respect variations in all request header fields, even if they are listed in the `Vary` header field.  To maximize the likelihood that a pushed resource will be accepted, content negotiation is best avoided.  Content negotiation based on the `accept-encoding` header field is widely respected by caches, but other header fields might not be as well supported.
