@@ -3,8 +3,6 @@ layout: front
 title: HTTP/2
 ---
 	
-_See also [HTTP/2 JP](https://github.com/http2jp), maintained by the Japanese HTTP/2 community._
-
 ## What is HTTP/2?
 
 HTTP/2 is a replacement for how HTTP is expressed "on the wire." It is
@@ -25,6 +23,8 @@ See [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) for more
 details of the scope of the work, as well as our [Frequently Asked
 Questions](/faq/).
 
+_See also [HTTP/2 JP](https://github.com/http2jp), maintained by the Japanese HTTP/2 community._
+
 
 ## Specifications
 
@@ -39,3 +39,5 @@ HTTP/2 is comprised of two specifications:
 We track [known
 implementations](https://github.com/http2/http2-spec/wiki/Implementations) of
 HTTP/2 on our wiki. 
+
+
