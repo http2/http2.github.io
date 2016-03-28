@@ -11,7 +11,7 @@ These are Frequently Asked Questions about HTTP/2.
 
 - [General Questions](#general-questions)
   - [Why revise HTTP?](#why-revise-http)
-  - [Who is doing this?](#who-is-doing-this)
+  - [Who is doing this?](#who-made-http2)
   - [What's the relationship with SPDY?](#whats-the-relationship-with-spdy)
   - [Is it HTTP/2.0 or HTTP/2?](#is-it-http20-or-http2)
   - [What are the key differences to HTTP/1.x?](#what-are-the-key-differences-to-http1x)
