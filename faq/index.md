@@ -98,7 +98,7 @@ At a high level, HTTP/2:
 
 ### Why is HTTP/2 binary?
 
-Binary protocols are more efficient to parse, more compact "on the wire", and most importantly, they are much less error-prone, compared to textual protocols like HTTP/1.x, because they often have a number of affordances to "help" with things like whitespace handling, capitalization, line endings, blank links and so on.
+Binary protocols are more efficient to parse, more compact "on the wire", and most importantly, they are much less error-prone, compared to textual protocols like HTTP/1.x, because they often have a number of affordances to "help" with things like whitespace handling, capitalization, line endings, blank lines and so on.
 
 For example, HTTP/1.1 defines [four different ways to parse a message](http://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.4); in HTTP/2, there's just one code path.
 
@@ -276,7 +276,7 @@ No.  Stream B has weight 4, stream C has weight 12.  To determine the proportion
 
 Yes, probably.  Even for a client-side implementation that only downloads a
 lot of data using a single stream, some packets will still be necessary to
-send back in the opposite direction to achive maximum transfer speeds. Without
+send back in the opposite direction to achieve maximum transfer speeds. Without
 TCP_NODELAY set (still allowing the Nagle algorithm), the outgoing packets may
 be held for a while in order to allow them to merge with a subsequent one.
 
