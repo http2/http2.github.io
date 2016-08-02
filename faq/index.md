@@ -131,7 +131,9 @@ Additionally, using so many connections unfairly monopolizes network resources, 
 
 When a browser requests a page, the server sends the HTML in the response, and then needs to wait for the browser to parse the HTML and issue requests for all of the embedded assets before it can start sending the JavaScript, images and CSS.
 
-Server Push allows the server to avoid this round trip of delay by "pushing" the responses it thinks the client will need into its cache.
+Server Push potentially allows the server to avoid this round trip of delay by "pushing" the responses it thinks the client will need into its cache.
+
+However, Pushing responses is not "magical" -- if used incorrectly, it can harm performance. Correct use of Server Push is an ongoing area of experimentation and research.
 
 
 ### Why do we need header compression?
