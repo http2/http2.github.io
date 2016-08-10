@@ -214,7 +214,7 @@ There is also discussion of additional mechanisms, such as using TLS for HTTP://
 
 ### Can I use HTTP/2 now?
 
-In browsers, HTTP/2 is supported by the most current releases of Firefox and Chrome. Other browsers based upon Blink will also support HTTP/2 (e.g., Opera and Yandex Browser). Microsoft and Apple have both announced plans to support HTTP/2 in future releases.
+In browsers, HTTP/2 is supported by the most current releases of Edge, Safari, Firefox and Chrome. Other browsers based upon Blink will also support HTTP/2 (e.g., Opera and Yandex Browser). See the [caniuse](http://caniuse.com/#feat=http2) for more details.
 
 There are also several servers available (including beta support from [Akamai](https://http2.akamai.com/), [Google](https://google.com/) and [Twitter](https://twitter.com/)'s main sites), and a number of Open Source implementations that you can deploy and test.
 
