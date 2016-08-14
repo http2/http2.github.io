@@ -11,7 +11,7 @@ These are Frequently Asked Questions about HTTP/2.
 
 - [General Questions](#general-questions)
   - [Why revise HTTP?](#why-revise-http)
-  - [Who is doing this?](#who-made-http2)
+  - [Who made HTTP/2?](#who-made-http2)
   - [What's the relationship with SPDY?](#whats-the-relationship-with-spdy)
   - [Is it HTTP/2.0 or HTTP/2?](#is-it-http20-or-http2)
   - [What are the key differences to HTTP/1.x?](#what-are-the-key-differences-to-http1x)
@@ -34,6 +34,9 @@ These are Frequently Asked Questions about HTTP/2.
   - [How can I avoid keeping state?](#how-can-i-avoid-keeping-state)
   - [Why is there a single compression/flow-control context?](#why-is-there-a-single-compressionflow-control-context)
   - [Why is there an EOS symbol in HPACK?](#why-is-there-an-eos-symbol-in-hpack)
+  - [Can I implement HTTP/2 without implementing HTTP/1.1?](#can-i-implement-http2-without-implementing-http11)
+  - [Is the priority example in Section 5.3.2 incorrect?](#is-the-priority-example-in-section-532-incorrect)
+  - [Will I need TCP_NODELAY for my HTTP/2 connections?](#will-i-need-tcpnodelay-for-my-http2-connections)
 - [Deployment Questions](#deployment-questions)
   - [How do I debug HTTP/2 if it's encrypted?](#how-do-i-debug-http2-if-its-encrypted)
   - [How can I use HTTP/2 server push](#how-can-i-use-http2-server-push)
