@@ -269,7 +269,7 @@ For HTTP/2 over TLS (`h2`), if you do not implement the `http1.1` ALPN identifie
 
 For HTTP/2 over TCP (`h2c`), you need to implement the initial upgrade request.
 
-`h2c`-only clients will need to generate a request an OPTIONS request for "*" or a HEAD request for "/" are fairly safe and easy to construct.  Clients looking to implement HTTP/2 only will need to treat HTTP/1.1 responses without a 101 status code as errors.  
+`h2c`-only clients will need to generate an OPTIONS request for "*" or a HEAD request for "/", which are fairly safe and easy to construct.  Clients looking to implement HTTP/2 only will need to treat HTTP/1.1 responses without a 101 status code as errors.
 
 `h2c`-only servers can accept a request containing the Upgrade header field with a fixed 101 response.  Requests without the `h2c` upgrade token can be rejected with a 505 (HTTP Version Not Supported) status code that contains the Upgrade header field.  Servers that don't wish to process the HTTP/1.1 response should reject stream 1 with a REFUSED_STREAM error code immediately after sending the connection preface to encourage the client to retry the request over the upgraded HTTP/2 connection.
 
