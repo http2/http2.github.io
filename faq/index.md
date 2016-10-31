@@ -31,7 +31,7 @@ These are Frequently Asked Questions about HTTP/2.
 - [Implementation Questions](#implementation-questions)
   - [Why the rules around Continuation on HEADERS frames?](#why-the-rules-around-continuation-on-headers-frames)
   - [What is the minimum or maximum HPACK state size?](#what-is-the-minimum-or-maximum-hpack-state-size)
-  - [How can I avoid keeping state?](#how-can-i-avoid-keeping-state)
+  - [How can I avoid keeping HPACK state?](#how-can-i-avoid-keeping-hpack-state)
   - [Why is there a single compression/flow-control context?](#why-is-there-a-single-compressionflow-control-context)
   - [Why is there an EOS symbol in HPACK?](#why-is-there-an-eos-symbol-in-hpack)
   - [Can I implement HTTP/2 without implementing HTTP/1.1?](#can-i-implement-http2-without-implementing-http11)
