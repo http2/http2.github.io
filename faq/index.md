@@ -212,7 +212,7 @@ HTTP/2 defines a profile of TLS that is required; this includes the version, a c
 
 See [the spec](http://http2.github.io/http2-spec/#TLSUsage) for details.
 
-There is also discussion of additional mechanisms, such as using TLS for HTTP:// URLs (so-called "opportunistic encryption"); see [the relevant draft](http://httpwg.github.io/http-extensions/opsec.html).
+There is also discussion of additional mechanisms, such as using TLS for HTTP:// URLs (so-called "opportunistic encryption"); see [RFC 8164](https://tools.ietf.org/html/rfc8164).
 
 
 ### Can I use HTTP/2 now?
