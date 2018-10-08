@@ -80,7 +80,7 @@ After a call for proposals and a selection process, [SPDY/2](http://tools.ietf.o
 
 Throughout the process, the core developers of SPDY have been involved in the development of HTTP/2, including both Mike Belshe and Roberto Peon.
 
-In February 2015, Google [announced its plans](http://blog.chromium.org/2015/02/hello-http2-goodbye-spdy-http-is_9.html) to remove support for SPDY in favor of HTTP/2.
+In February 2015, Google [announced its plans](https://blog.chromium.org/2015/02/hello-http2-goodbye-spdy.html) to remove support for SPDY in favor of HTTP/2.
 
 
 ### Is it HTTP/2.0 or HTTP/2?
