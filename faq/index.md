@@ -36,7 +36,7 @@ These are Frequently Asked Questions about HTTP/2.
   - [Why is there an EOS symbol in HPACK?](#why-is-there-an-eos-symbol-in-hpack)
   - [Can I implement HTTP/2 without implementing HTTP/1.1?](#can-i-implement-http2-without-implementing-http11)
   - [Is the priority example in Section 5.3.2 incorrect?](#is-the-priority-example-in-section-532-incorrect)
-  - [Will I need TCP_NODELAY for my HTTP/2 connections?](#will-i-need-tcpnodelay-for-my-http2-connections)
+  - [Will I need TCP_NODELAY for my HTTP/2 connections?](#will-i-need-tcp_nodelay-for-my-http2-connections)
 - [Deployment Questions](#deployment-questions)
   - [How do I debug HTTP/2 if it's encrypted?](#how-do-i-debug-http2-if-its-encrypted)
   - [How can I use HTTP/2 server push](#how-can-i-use-http2-server-push)
