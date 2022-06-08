@@ -30,8 +30,8 @@ _See also [HTTP/2 JP](https://github.com/http2jp), maintained by the Japanese HT
 
 HTTP/2 is comprised of two specifications:
 
-* Hypertext Transfer Protocol version 2 - [RFC7540](https://httpwg.github.io/specs/rfc7540.html)
-* HPACK - Header Compression for HTTP/2 - [RFC7541](https://httpwg.github.io/specs/rfc7541.html)
+* Hypertext Transfer Protocol version 2 - [RFC9113](https://httpwg.org/specs/rfc9113.html)
+* HPACK - Header Compression for HTTP/2 - [RFC7541](https://httpwg.org/specs/rfc7541.html)
  
  
 ## Implementations
