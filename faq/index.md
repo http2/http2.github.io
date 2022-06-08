@@ -27,7 +27,6 @@ These are Frequently Asked Questions about HTTP/2.
   - [What does HTTP/2 do to improve security?](#what-does-http2-do-to-improve-security)
   - [Can I use HTTP/2 now?](#can-i-use-http2-now)
   - [Will HTTP/2 replace HTTP/1.x?](#will-http2-replace-http1x)
-  - [Will there be a HTTP/3?](#will-there-be-a-http3)
 - [Implementation Questions](#implementation-questions)
   - [Why the rules around Continuation on HEADERS frames?](#why-the-rules-around-continuation-on-headers-frames)
   - [What is the minimum or maximum HPACK state size?](#what-is-the-minimum-or-maximum-hpack-state-size)
@@ -229,10 +228,6 @@ See the [implementations list](https://github.com/http2/http2-spec/wiki/Implemen
 The goal of the Working Group is that typical uses of HTTP/1.x *can* use HTTP/2 and see some benefit. Having said that, we can't force the world to migrate, and because of the way that people deploy proxies and servers, HTTP/1.x is likely to still be in use for quite some time.
 
 
-### Will there be a HTTP/3?
-
-If the negotiation mechanism introduced by HTTP/2 works well, it should be possible to support new versions of HTTP much more easily than in the past. 
-
 
 ## Implementation Questions
 
@@ -275,7 +270,7 @@ For HTTP/2 over TCP (`h2c`), you need to implement the initial upgrade request.
 
 ### Is the priority example in Section 5.3.2 incorrect?
 
-No.  Stream B has weight 4, stream C has weight 12.  To determine the proportion of the available resources that each of these streams receive, sum all the weights (16) and divide each stream weight by the total weight.  Stream B therefore receives one-quarter of the available resources and stream C receives three-quarters.  Consequently, as the specification states: [stream B ideally receives one-third of the resources allocated to stream C](http://http2.github.io/http2-spec/#rfc.section.5.3.2).
+No.  Stream B has weight 4, stream C has weight 12.  To determine the proportion of the available resources that each of these streams receive, sum all the weights (16) and divide each stream weight by the total weight.  Stream B therefore receives one-quarter of the available resources and stream C receives three-quarters.  Consequently, as the specification states: [stream B ideally receives one-third of the resources allocated to stream C](http://httpwg.org/specs/rfc7540/#rfc.section.5.3.2).
 
 ### Will I need TCP_NODELAY for my HTTP/2 connections?
 
