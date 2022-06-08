@@ -209,7 +209,7 @@ However, some implementations have stated that they will only support HTTP/2 whe
 
 HTTP/2 defines a profile of TLS that is required; this includes the version, a ciphersuite blacklist, and extensions used. 
 
-See [the spec](https://httpwg.org/specs/rfc7540.html#TLSUsage) for details.
+See [the spec](https://httpwg.org/specs/rfc9113.html#TLSUsage) for details.
 
 There is also discussion of additional mechanisms, such as using TLS for HTTP:// URLs (so-called "opportunistic encryption"); see [RFC 8164](https://tools.ietf.org/html/rfc8164).
 
