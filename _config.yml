@@ -1,4 +1,4 @@
 ---
   markdown: kramdown
   include:
-    - node_modules
+    - node_modules/
