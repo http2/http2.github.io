@@ -1,3 +1,4 @@
-
+exclude:
+- Gemfile
 include:
 - node_modules
