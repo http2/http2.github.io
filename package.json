@@ -2,6 +2,6 @@
   "name": "http2.github.io",
   "version": "1.0.0",
   "dependencies": {
-  	"bootstrap": "3.x"
+  	"bootstrap": "5.x"
   }
 }
